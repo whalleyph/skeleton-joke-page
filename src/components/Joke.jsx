@@ -5,6 +5,7 @@ export default function Joke(prop) {
         <>
             <h2>{prop.setup}</h2>
             <p>{prop.punchline}</p>
+            <hr />
         </>
     )
 }
